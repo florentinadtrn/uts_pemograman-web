@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(96, 181, 250);
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png);
+    font-family: Georgia;
+}
+h1 {
+    text-align: center;
+    border: 1%; solid black;
+    border-radius: 60%;
+    background-color: rgb(93, 223, 234);
+    padding: 4%;
+    font: size 100%;
+
+}
+
+img {
+    display: block;
+    margin-left: 30%;
+    border:ipx solid pink ;
+}
+
+table, tr, th, td {
+    border: 1%;
+    margin:auto;
+    
+}
+table,tr, td::first-line {
+    width: 40%;
+}
+tr:first-child {
+    background-color: oldlace;
+}
+a:link {
+    color:rgb(63, 224, 229);
+}
+a:visited {
+    color:rgb(14, 245, 64);
+}
+a:hover {
+    color:hotpink;
+}
+a:active {
+    color:rgb(40, 97, 177);
+}
+button {
+    background-color: chocolate;
+}
+button:visited {
+    color:burlywood;
+}
+button:hover {
+    color:cornsilk;
+}
+button:active {
+    color: gold;
+}
+

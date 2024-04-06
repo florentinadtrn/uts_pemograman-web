@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Katalog Ruhi N' Spray Deodorant</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Profil Produk</h1>
+        <img src="C:\Users\Detrin Dhema\OneDrive\Pictures\Deodoran Ruhi'N Spray.jpg" height="300" width="400">
+
+        <p>Ruhi N' Spray ini merupakan produk deodrant yang bahan utamanya dari alam tawas cair, kapur siri, citrus tanpa kandungan alkohol dan tanpa proses kimia yang mampu menghilangkan dan membunuh bakteri penyebab bau keringat yang tidak sedap dan menjaga tetap segar sepanjang hari.Prodak ini bisa diginakan oleh laki-laki dan perempuan.</p>
+
+        <h2>Manfaat</h2>
+        <p>-Menghaluskan kulit ketiak</p>
+        <p>-Menghilangkan bau keringat</p>
+        <p>-Mencerahkan ketiak yang hitam</p>
+        <p>Tidak meninggalkan noda kuning pada baju</p>
+        <p>-Tidak lengket saat dipakai</p>
+        <p>-Aman untuk bumil dan busui</p>
+
+        <h2>Cara Pemakaian</h2>
+        <p>Gunakan setelah mandi, kocok terlebih dahulu lalu spraykan 2-3 kali di ketiak yang kering lalu ratakan.</p>
+
+        <h2>Testimoni</h2>
+        <img src="C:\Users\Detrin Dhema\OneDrive\Pictures\Testimoni4.jpg" height="200" width="300" class="clickable-image" onclick="expandImage(this)">
+        <img src="C:\Users\Detrin Dhema\OneDrive\Pictures\Testimoni5.jpg" height="300" width="400" class="clickable-image" onclick="expandImage(this)">
+        
+        <h2>Formulir pembelian</h2>
+        <form action="proses_pemesanan.php" method="post">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="Nama Lengkap" required><br><br>
+
+            <label for="alamat">Alama Pengiriman</label>
+            <input type="text" id="alamat" name="Alamat Lengkap" required><br><br>
+
+            <label for="telpon">No.Telpon</label>
+            <input type="text" id="telpon" name="No.Telpon" required><br><br>
+
+            <label for="jumlah">Jumlah Pesanan</label>
+            <input type="number" id="jumlah" name="Jumlah Pemesanan" required><br><br>
+
+            <label for="metode_pembayaran">Metode Pembayaran:</label><br>
+            <select id="metode_pembayaran" name="metode_pembayaran" required>
+                <option value="transfer_bank">Transfer Bank</option>
+                <option value="kartu_kredit">Kartu Kredit</option>
+                <option value="paypal">PayPal</option>
+            </select><br>
+
+            <label for="metode_pengiriman">Metode Pengiriman:</label><br>
+    <select id="metode_pengiriman" name="metode_pengiriman" required>
+        <option value="reguler">Reguler</option>
+        <option value="ekspres">Ekspres</option>
+        <option value="overnight">Pengiriman Overnight</option>
+    </select><br>
+
+            <button type="submit">pesan</button>
+            
+        </form>
+        
+        
+
+    </body>
+
+</html>
